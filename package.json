@@ -8,7 +8,7 @@
   "scripts": {
     "start": "parcel index.html --open",
     "lint": "eslint \"src/\" --cache --fix --format table",
-    "format": "prettier --write \"src/**/*.{js,css}\""
+    "format": "prettier --write \"src/**/*.{js,css,scss}\""
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
@@ -31,6 +31,9 @@
   },
   "lint-staged": {
     "*.js": "eslint \"src/\" --cache --fix --format table",
-    "*.{js,css,md}": "prettier --write"
+    "*.{js,css,scss,md}": "prettier --write"
+  },
+  "dependencies": {
+    "sass": "^1.26.5"
   }
 }

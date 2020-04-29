@@ -2,6 +2,8 @@
 
 Twitter explore page scaffold with sass for GTB project
 
+![Mockup](mockup/twitter-explore.png)
+
 ## Install dependencies
 
 ```

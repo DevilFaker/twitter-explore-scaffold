@@ -1,6 +1,6 @@
-# static-page-sass-scaffold
+# twitter-explore-scaffold
 
-Static page with sass for GTB project
+Twitter explore page scaffold with sass for GTB project
 
 ## Install dependencies
 
@@ -26,7 +26,7 @@ If you use npm,
 npm start
 ```
 
-## JS and CSS code lint in src/
+## JS and SCSS code lint in src/
 
 ```
 yarn run lint
@@ -38,7 +38,7 @@ If you use npm,
 npm run lint
 ```
 
-## Format JS and CSS files in src/
+## Format JS and SCSS files in src/
 
 ```
 yarn run format

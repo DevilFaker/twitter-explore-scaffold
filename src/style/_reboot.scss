@@ -2,12 +2,15 @@ body,
 html {
   margin: 0;
   padding: 0;
+  height: 100%;
+  width: 100%;
 }
 
 body {
   font-family: $font-family-base;
   font-size: $font-size-base;
   color: $color-base;
+  background-color: $body-bg;
   line-height: $line-height-base;
 }
 
@@ -28,4 +31,16 @@ a {
   &:hover {
     color: $link-hover-color;
   }
+}
+
+button {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+h1 {
+  color: $heading-color;
+  margin: 0;
 }

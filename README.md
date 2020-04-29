@@ -1,6 +1,6 @@
-# gtb-static-page
+# static-page-sass-scaffold
 
-Static page with dev server for GTB project
+Static page with sass for GTB project
 
 ## Install dependencies
 

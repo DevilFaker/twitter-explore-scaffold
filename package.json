@@ -22,7 +22,8 @@
     "husky": ">=4",
     "lint-staged": ">=10",
     "parcel-bundler": "^1.12.4",
-    "prettier": "2.0.5"
+    "prettier": "2.0.5",
+    "sass": "^1.26.8"
   },
   "husky": {
     "hooks": {
@@ -32,8 +33,5 @@
   "lint-staged": {
     "*.js": "eslint \"src/\" --cache --fix --format table",
     "*.{js,css,scss,md}": "prettier --write"
-  },
-  "dependencies": {
-    "sass": "^1.26.5"
   }
 }

@@ -8,7 +8,71 @@
   <title>Title</title>
 </head>
 <body>
-  Hello World
+  <header class="header">
+    <h1>Twitter</h1>
+    <nav>
+      <ul>
+        <li class="btn-login">登录</li>
+        <li class="btn-register">注册</li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <div class="form">
+
+      <div class="section-font">
+        查看世界上正在发生的事情
+      </div>
+
+      <form action="" method="get" class="form-section">
+
+        <div class="form-content">
+          <div class="form-content-part">
+            <label for="name">电话,邮件地址或用户名: </label>
+          </div>
+
+          <div >
+            <input type="text" class="input-field" name="name" id="name" required>
+          </div>
+        </div>
+
+        <div class="form-content">
+          <div class="form-content-part">
+            <label for="name">密码:</label>
+          </div>
+          <div >
+            <input type="password" class="input-field" name="email" id="email" required>
+          </div>
+        </div>
+
+        <div class="form-content-part forget-password">
+          <a for="name">忘记密码？</a>
+        </div>
+
+        <div class="form-content">
+          <div>
+            <input class="login" type="submit" value="登录">
+          </div>
+        </div>
+
+        <div class="form-section form-content-part" id="huo">
+          或
+        </div>
+
+        <div class="form-content-part">
+          <div>
+            <input class="register" type="submit" value="注册">
+          </div>
+        </div>
+
+      </form>
+
+    </div>
+  </section>
+
+
   <script src="src/app.js"></script>
 </body>
+
 </html>

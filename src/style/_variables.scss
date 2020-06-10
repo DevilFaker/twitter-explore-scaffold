@@ -16,3 +16,28 @@ $heading-color: $white !default;
 $link-color: $gray !default;
 $link-hover-color: darken($link-color, 15%) !default;
 $border-color: rgb(61, 84, 102);
+
+$container-padding-x: 40px;
+$container-padding-y: 20px;
+
+$btn-padding-x: 20px;
+$btn-padding-y: 5px;
+
+$btn-login-bg: black;
+$btn-login-font: #1991da;
+$btn-login-borderColor: #1991da;
+
+$btn-register-bg: #1991da;
+$btn-register-font: white;
+$btn-register-borderColor: none;
+
+$header-border-color: grey;
+
+$form-width: 30%;
+$form-section-width: 100%;
+$form-section-fontSize: 20px;
+
+$margin-font: 20px;
+$width-full: 100%;
+
+$form-content: 10px;

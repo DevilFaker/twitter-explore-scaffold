@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: $container-padding-y $container-padding-x;
+  border-bottom: 1px solid $header-border-color;
+
+  nav {
+    @extend .menu;
+  }
+
+  .login {
+    @include btn-variant(
+      $btn-login-font,
+      $btn-login-bg,
+      $btn-login-borderColor
+    );
+  }
+
+  .register {
+    @include btn-variant(
+      $btn-register-font,
+      $btn-register-bg,
+      $btn-register-borderColor
+    );
+  }
+}

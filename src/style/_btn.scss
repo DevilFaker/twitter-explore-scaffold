@@ -1,0 +1,11 @@
+.btn-login {
+  @include btn-variant($btn-login-font, $btn-login-bg, $btn-login-borderColor);
+}
+
+.btn-register {
+  @include btn-variant(
+    $btn-register-font,
+    $btn-register-bg,
+    $btn-register-borderColor
+  );
+}
